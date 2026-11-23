@@ -5,7 +5,7 @@
 > **开发板**：G4C_NANO
 > **主控**：STM32G474CBT6（LQFP48 封装）
 
-## 板卡介绍
+## 一、板卡介绍
 
 ### 主控
 - STM32G474CBT6，Cortex-M4，170MHz 主频
@@ -35,7 +35,7 @@
 - 长 5.62cm，宽 2.54cm
 - JLC 2 层板，沉金工艺，无铅 SMT
 
-## 一、板级引脚映射（HDK/G4C_NANO-PinMap.md）
+## 二、板级引脚映射（HDK/G4C_NANO-PinMap.md）
 
 | 功能 | 引脚 | 说明 |
 |------|------|------|
@@ -50,7 +50,7 @@
 | SPI_LCD | PB3/4/5 + PB7/6 + PA15 | SCL/DC/SDA + PWR/RST + CS |
 | SPI_FLASH | PB13/14/15 + PB12 | CLK/MOSI/MISO + CS |
 
-## 二、顶层目录结构
+## 三、顶层目录结构
 
 | 路径 | 说明 |
 |------|------|
@@ -74,7 +74,7 @@
 | `README.md` | 本说明文档（简体中文） |
 | `README_EN.md` | 英文说明文档 |
 
-## 三、Examples 例程库（共 94 个）
+## 四、Examples 例程库（共 94 个）
 
 | 分类 | 例程名称 |
 |------|----------|
@@ -175,7 +175,7 @@
 
 > 分类统计：ADC(2)、COMP(2)、CORDIC(2)、Cortex(4)、CRC(4)、DAC(1)、DMA(2)、FLASH(4)、FMAC(5)、GPIO(3)、HAL(1)、HRTIM(4)、I2C(6)、IWDG(2)、LPTIM(4)、OPAMP(1)、PWR(9)、RCC(3)、RNG(2)、RTC(3)、SPI(6)、TIM(12)、UART(10)、USART(1)、WWDG(1)
 
-## 四、独立工程（共 8 个目录）
+## 五、独立工程（共 8 个目录）
 
 | 工程 | 说明 | README |
 |------|------|:---:|
